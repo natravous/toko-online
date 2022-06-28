@@ -86,4 +86,25 @@ class Validation extends BaseConfig
             'required' => '{field} Harus Diisi',
         ],
     ];
+
+    public $transaksi = [
+		'id_barang' => [
+			'rules' => 'required',
+		],
+		'id_pembeli' => [
+			'rules' => 'required',
+		],
+		'jumlah'=> [
+			'rules' => 'required',
+		],
+		'total_harga'=> [
+			'rules' => 'required',
+		],
+		'alamat'=> [
+			'rules' => 'required',
+		],
+		'ongkir'=> [
+			'rules' => 'required',
+		]
+	];
 }
