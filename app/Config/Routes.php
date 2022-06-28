@@ -50,6 +50,7 @@ $routes->get('transaction', 'Transaksi::index', ['filter' => 'auth']);
 $routes->get('invoice/(:segment)', 'Transaksi::invoice', ['filter' => 'auth']);
 $routes->add('buy', 'Transaksi::buy', ['filter' => 'auth']);
 $routes->add('komentar/create', 'Komentar::create');
+$routes->add('contact', 'Home::contact');
 
 /*
  * --------------------------------------------------------------------
