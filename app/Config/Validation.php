@@ -107,4 +107,10 @@ class Validation extends BaseConfig
 			'rules' => 'required',
 		]
 	];
+
+    public $komentar = [
+		'komentar' =>[
+			'rules' => 'required',
+		],
+	];
 }
